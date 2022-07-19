@@ -1,0 +1,114 @@
+:root {
+    --love: rgb(235, 171, 181);
+    --sadness: rgb(166, 198, 240);
+    --anger: rgb(252, 181, 159);
+    --joy: rgb(253, 222, 137);
+    --surprise: rgb(181, 255, 193);
+    --fear: rgb(207, 180, 243);
+  }
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(14, 14, 14);
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title {
+    color: rgb(231, 226, 255);
+    font-size: 50px;
+}
+
+.btn_add {
+    border-radius: 15px;
+    margin-left: 10px;
+    padding: 8px 15px;
+    outline: none;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(75, 75, 75, 0.815);
+    color: rgb(228, 237, 250);
+    font-size: 15px;
+}
+
+.input_add {
+    border-radius: 5px;
+    padding: 8px 15px;
+    outline-style: none;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(49, 49, 49, 0.842);
+    color: rgb(228, 237, 250);
+    font-size: 15px;
+    width: 20vw;
+}
+
+.comment_set {
+    border-radius: 15px;
+    font-weight: 500;
+    background-color: rgba(46, 45, 45, 0.705);
+    padding: 15px 20px;
+    margin: 15px;
+}
+
+.comment_content_love {
+    color: var(--love);
+}
+
+.comment_content_anger {
+    color: var(--anger);
+}
+
+.comment_content_sadness {
+    color: var(--sadness);
+}
+
+.comment_content_joy {
+    color: var(--joy);
+}
+
+.comment_content_surprise {
+    color: var(--surprise);
+}
+
+.comment_content_fear {
+    color: var(--fear);
+}
+
+.sentiment_content {
+    width: fit-content;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-top: -5px;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+}
+
+.love {
+    background-color: var(--love);
+}
+
+.anger {
+    background-color: var(--anger);
+}
+
+.sadness {
+    background-color: var(--sadness);
+}
+
+.joy {
+    background-color: var(--joy);
+}
+
+.surprise {
+    background-color: var(--surprise);
+}
+
+.fear {
+    background-color: var(--fear);
+}
